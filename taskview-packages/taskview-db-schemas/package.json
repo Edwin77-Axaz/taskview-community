@@ -16,9 +16,9 @@
     "dist"
   ],
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "build-watch": "tsc && vite build --watch",
+    "dev": "node init && vite",
+    "build": "node init && tsc && vite build",
+    "build-watch": "node init && tsc && vite build --watch",
     "preview": "vite preview",
     "type-check": "tsc --noEmit"
   },

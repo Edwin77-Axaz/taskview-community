@@ -20,7 +20,7 @@
     "Package.swift"
   ],
   "scripts": {
-    "build": "tsc",
+    "build": "node init && tsc",
     "type-check": "tsc --noEmit"
   },
   "capacitor": {
