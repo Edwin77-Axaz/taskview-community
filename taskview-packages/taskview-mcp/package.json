@@ -45,7 +45,7 @@
     "node": ">=24"
   },
   "scripts": {
-    "build": "node init && vite build",
+    "build": "vite build",
     "test": "vitest run --exclude 'src/__tests__/integration/**'",
     "test:integration": "sh -c '. ./.env.test && vitest run src/__tests__/integration/'",
     "test:all": "sh -c '. ./.env.test && vitest run'"
